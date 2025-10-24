@@ -2,11 +2,11 @@
 
 **Empower Your Day with Intelligent Voice Command**
 
-![Last Commit](https://img.shields.io/github/last-commit/ArghDas/JARVIS-AI?color=blue)
+![Last Commit](https://img.shields.io/github/last-commit/ArghDas/J.A.R.V.I.S.-Just-A-Rather-Very-InJ.A.R.V.I.S.-Personal-AI-Assistant?color=blue)
 ![Python](https://img.shields.io/badge/python-100%25-blue)
 ![Language](https://img.shields.io/badge/language-1-lightgrey)
-![License](https://img.shields.io/github/license/ArghDas/JARVIS-AI)
-![Stars](https://img.shields.io/github/stars/ArghDas/JARVIS-AI?style=social)
+![Stars](https://img.shields.io/github/stars/ArghDas/J.A.R.V.I.S.-Just-A-Rather-Very-InJ.A.R.V.I.S.-Personal-AI-Assistant?style=social)
+
 
 ---
 
@@ -28,7 +28,6 @@
   - [Installation](#installation)
 - [Usage](#usage)
 - [Testing](#testing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ---
@@ -63,3 +62,48 @@ Before you begin, ensure you have:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/ArghDas/JARVIS-AI.git
+
+2. **Navigate to the project directory**
+   ```bash
+   cd JARVIS-AI
+3. **Install the dependencies**
+   ```bash
+   pip install -r requirements.txt
+4. **Configure API Key**
+   ```bash
+   # Create a .env file in the project root and add your Gemini API key:
+- echo "api_key=YOUR_GEMINI_API_KEY_HERE" > .env
+
+---
+
+## 💻 Usage
+
+To run the assistant:  python src/main.py
+
+**J.A.R.V.I.S.** will listen, process, and respond intelligently.  
+
+### 🗣️ Example Commands:
+- “Open YouTube”  
+- “What’s the weather today?”  
+- “Tell me a joke”  
+- “Play some music”
+
+---
+
+## 🧪 Testing
+
+**J.A.R.V.I.S.** uses the **pytest** framework for functional and module testing.  
+
+To run the test suite: pytest
+  
+---
+
+## 🌟 Acknowledgements
+
+Special thanks to:
+- [Google Gemini API](https://ai.google.dev/)
+- [Python SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
+- [dotenv](https://pypi.org/project/python-dotenv/)
+- [OpenAI Inspiration](https://openai.com/)
+- The Python community
+
